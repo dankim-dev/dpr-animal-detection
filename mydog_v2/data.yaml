@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['dog-chihuahua', 'dog-golden_retriever', 'dog-greyhound', 'dog-maltese', 'dog-poodle', 'dog-retriever', 'dog-samoyed', 'dog-shetland_sheepdog']
+
+roboflow:
+  workspace: dpranimaldetection
+  project: dpr-mydogdetection
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dpranimaldetection/dpr-mydogdetection/dataset/2
